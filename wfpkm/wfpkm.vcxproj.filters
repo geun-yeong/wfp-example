@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Driver Files">
+      <UniqueIdentifier>{8E41214B-6785-4CFE-B992-037D68949A14}</UniqueIdentifier>
+      <Extensions>inf;inv;inx;mof;mc;</Extensions>
+    </Filter>
+    <Filter Include="Source Files\wfp">
+      <UniqueIdentifier>{71cc5981-7ded-4afa-8833-5e76bd6143c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\wfp">
+      <UniqueIdentifier>{3ab02c4b-fe06-4fda-9672-91238d0021e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\util">
+      <UniqueIdentifier>{9ac52f33-3669-4a02-abf5-a06cb9dfd342}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\util">
+      <UniqueIdentifier>{dbf8d54c-15ae-48d9-a8ff-1e4950cad60d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\wdf">
+      <UniqueIdentifier>{ddfbf357-3a98-4504-908c-342f957f7d71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\wdf">
+      <UniqueIdentifier>{773e631d-66fd-47f9-9d55-f9f972a9169c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="converter.c">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="fltlist.c">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="wdfkm.c">
+      <Filter>Source Files\wdf</Filter>
+    </ClCompile>
+    <ClCompile Include="wfpkm.c">
+      <Filter>Source Files\wfp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="error.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="converter.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="fltlist.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="wdfkm.h">
+      <Filter>Header Files\wdf</Filter>
+    </ClInclude>
+    <ClInclude Include="wfpkm.h">
+      <Filter>Header Files\wfp</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
