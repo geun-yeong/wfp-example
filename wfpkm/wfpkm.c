@@ -161,7 +161,7 @@ NTSTATUS AddCalloutToLayer(
 
 	status = FwpsCalloutRegister(wfpkm_device, &fwps_callout, &fwps_callout_id);
 	IF_ERROR(FwpsCalloutRegister, CLEANUP_OF_ADD_CALLOUT_TO_LAYER);
-	KdPrint(("[wfpkm] " __FUNCTION__ " - FwpmCalloutAdd success (callout id = %u)", fwps_callout_id));
+	KdPrint(("[wfpkm] " __FUNCTION__ " - FwpsCalloutRegister success (callout id = %u)", fwps_callout_id));
 
 
 
