@@ -347,13 +347,13 @@ void NTAPI ClassifyFunctionRoutine(
 	//
 	// done
 	//
-	KdPrint((
+	DbgPrint(
 		"[wfpkm] " __FUNCTION__ " [%-5u] %s:%u %s %s:%u",
 		pid,
 		local_ipstr, local_port,
 		direction,
 		remote_ipstr, remote_port
-	));
+	);
 }
 
 
@@ -364,7 +364,9 @@ NTSTATUS NTAPI NotifyFunctionRoutine(
 	_Inout_ FWPS_FILTER3* filter
 )
 {
+	UNREFERENCED_PARAMETER(notify_type);
 	UNREFERENCED_PARAMETER(filter_key);
+	UNREFERENCED_PARAMETER(filter);
 
 	// filter was added
 	if (notify_type == FWPS_CALLOUT_NOTIFY_ADD_FILTER) {
