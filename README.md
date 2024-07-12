@@ -9,4 +9,4 @@ WFP is Windows Filtering Platform. This repository has wfp sample codes.
 
 # notes
 
-Anyone use this code wherever, whenever, free.
+Anyone can use this code wherever, whenever, free.
